@@ -16,7 +16,7 @@
             attribution: '&copy; OpenStreetMap contributors'
         }).addTo(map);
 
-        fetch('https://raw.githubusercontent.com/USERNAME/REPO/main/data.geojson') // Ganti dengan URL file di GitHub
+        fetch('https://deriardiansyah.github.io/GIS-DERI-ARDIANSYAH/') // Ganti dengan URL file di GitHub
             .then(response => response.json())
             .then(data => {
                 L.geoJSON(data).addTo(map);
